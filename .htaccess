@@ -1,0 +1,8 @@
+<Files "*.ip">
+        Order Deny,Allow
+        Deny from all
+        Allow from localhost
+        Allow from 127.0.0.1
+		
+</Files>
+#though it can do without, we protect this file from being browsed
