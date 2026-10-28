@@ -6,6 +6,7 @@ There is no need to turn to (paid) ddns services.
 
 Find your public dynamic IP (ipify.org).
 Get yourself an account on cloudflare and setup your DNS with your IP address.
+Get an API Key with DNS write enabled, Zone read enabled. Make sure you copy the key to a safe place.
 
 Setup an environment running PHP with curl enabled.
 Copy the files and complete the config.php with your login, key and (sub)domains.
